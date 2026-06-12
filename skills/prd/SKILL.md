@@ -1,6 +1,6 @@
 ---
 name: prd
-description: Generate a structured Product Requirements Document (PRD) by eliciting requirements from the user through multi-round Q&A. Trigger: 帮我写PRD, 生成PRD, 产品需求文档, 需求文档, 规格说明, create a PRD, write requirements document, draft a product spec, before we start coding.
+description: 'Generate a structured Product Requirements Document (PRD) by eliciting requirements from the user through multi-round Q&A. Trigger: 帮我写PRD, 生成PRD, 产品需求文档, 需求文档, 规格说明, create a PRD, write requirements document, draft a product spec, before we start coding.'
 ---
 
 # PRD Generation Skill

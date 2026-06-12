@@ -1,6 +1,6 @@
 ---
 name: project-orchestrator
-description: 完整的项目实现流程编排器，串联 PRD、详细设计、任务拆分、Vibe Coding 指令、代码实现、部署测试六个阶段。主 Agent 仅编排不写代码，每个阶段定稿前停顿确认。Trigger: 开始新项目, 帮我从零开始做一个项目, 完整的开发流程, 我要开始一个新项目, 走一遍完整的项目实现流程, start a new project, full project workflow, project orchestration.
+description: '完整的项目实现流程编排器，串联 PRD、详细设计、任务拆分、Vibe Coding 指令、代码实现、部署测试六个阶段。主 Agent 仅编排不写代码，每个阶段定稿前停顿确认。Trigger: 开始新项目, 帮我从零开始做一个项目, 完整的开发流程, 我要开始一个新项目, 走一遍完整的项目实现流程, start a new project, full project workflow, project orchestration.'
 ---
 
 # 项目流程编排器 (Project Orchestrator)

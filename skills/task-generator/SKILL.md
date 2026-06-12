@@ -1,6 +1,6 @@
 ---
 name: task-generator
-description: Generate minimum executable task checklists for each module from a Detailed Design Document and PRD. Each task names a specific output file and describes exactly what goes in it, ordered by dependency. Trigger: 任务拆分, 给我拆任务, 生成任务清单, 拆分开发任务, 把设计文档拆成任务, task breakdown, create task lists, implementation tasks.
+description: 'Generate minimum executable task checklists for each module from a Detailed Design Document and PRD. Each task names a specific output file and describes exactly what goes in it, ordered by dependency. Trigger: 任务拆分, 给我拆任务, 生成任务清单, 拆分开发任务, 把设计文档拆成任务, task breakdown, create task lists, implementation tasks.'
 ---
 
 # Task Generator Skill
