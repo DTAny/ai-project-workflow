@@ -1,5 +1,7 @@
 # AI Project Workflow · 项目实现工具链
 
+> 🇬🇧 [Read in English](README_EN.md)
+
 > **一套面向 AI 编程 Agent 的技能包，将项目从想法到代码的全流程拆解为 5 个可组合的 Skill。**
 >
 > 无论你是用 Claude Code、Cursor、Codex 还是其他 AI 编程工具，安装后只需说一句话，Agent 就会自动激活对应的 Skill，带你走完需求 → 设计 → 任务 → 实现 → 部署的每一步。
