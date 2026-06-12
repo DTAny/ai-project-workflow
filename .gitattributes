@@ -1,0 +1,10 @@
+# Force LF line endings for SKILL.md files
+# Claude Code's YAML frontmatter parser requires LF — CRLF silently breaks description extraction
+skills/**/SKILL.md text eol=lf
+*.skill text eol=lf
+
+# Test prompts
+skills/**/test-prompts.json text eol=lf
+
+# Documentation
+*.md text eol=lf
