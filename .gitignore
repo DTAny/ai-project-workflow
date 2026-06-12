@@ -4,6 +4,10 @@
 # Original skill package files (keep the extracted skills/ dir)
 *.skill
 
+# npx skills local artifacts
+.agents/
+skills-lock.json
+
 # OS
 .DS_Store
 Thumbs.db
