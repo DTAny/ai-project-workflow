@@ -194,6 +194,26 @@ npx skills add DTAny/ai-project-workflow --all -a claude-code -a opencode
 
 ---
 
+## 疑难解答
+
+### 安装后触发短语不生效？
+
+如果 skill 已安装但 Agent 无法通过触发短语激活它，检查 `SKILL.md` 文件行尾符是否为 **LF**（`\n`）而非 **CRLF**（`\r\n`）。
+
+Windows 上的 `git clone` 和 `npx skills add` 会因 `core.autocrlf=true` 设置自动将 LF 转为 CRLF，而 **Claude Code 的 YAML frontmatter 解析器无法处理 CRLF**，会导致 `description` 字段被静默丢弃——skill 名称出现在列表中但没有描述，也就无法匹配触发短语。
+
+此仓库已通过 `.gitattributes` 强制所有 skill 文件使用 LF，正常情况下不会出现此问题。如果你手动 clone 或从其他来源安装，请确认文件行尾符。
+
+```bash
+# 检查行尾符
+file skills/*/SKILL.md | grep CRLF
+
+# 手动转换
+sed -i 's/\r$//' skills/*/SKILL.md
+```
+
+---
+
 ## 许可
 
 MIT
