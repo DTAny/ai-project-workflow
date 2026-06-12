@@ -1,0 +1,5 @@
+[
+  {"id": 1, "prompt": "帮我从零开始做一个项目：团队内部的代码片段分享平台，叫 SnippetHub，前端 React + TypeScript，后端用 Fastify，数据库 PostgreSQL，Docker Compose 部署。", "expected": "从阶段零开始，确认中文语言和 Docker 部署环境，然后依次引导 PRD→详细设计→任务拆分→开发指令→实现→部署测试，每阶段停顿确认"},
+  {"id": 2, "prompt": "我要做一个简单的 CLI 天气查询工具，叫 WeatherCLI，用 Node.js 写，调用 OpenWeatherMap API。走完整的项目流程。", "expected": "从阶段零开始，确认语言和部署方式（CLI 工具可能不需要 Docker），根据项目规模调整为简化的流程，确保每个阶段有停顿确认"},
+  {"id": 3, "prompt": "Start a new project: a REST API for a todo app with user auth, Go + PostgreSQL + Docker. Use the full project workflow.", "expected": "Start from Phase 0 confirming English language, through all 6 phases with checkpoints at each stage. Deployment considerations woven throughout. Hot-deploy capability included."}
+]

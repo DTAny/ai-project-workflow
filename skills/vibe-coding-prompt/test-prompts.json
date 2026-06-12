@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "目标: 生成Vibe Coding用的Prompt。输入：需求文档 doc/prd.md，详细设计 doc/detailed-design.md，任务划分 doc/tasks。输出: doc/prompt.md。",
+    "expected": "读取三个输入文档 → 分析项目复杂度 → Q&A 决定 Agent 模式/Phase 范围/测试要求 → 生成 doc/prompt.md（含多 Agent 架构、12 模块规格、开发工作流、安全约束、配置清单）"
+  },
+  {
+    "id": 2,
+    "prompt": "Generate a Vibe Coding prompt from our existing PRD, detailed design, and task breakdown. The project is a License Key Server with 12 modules.",
+    "expected": "English trigger, reads all input docs, identifies 12 modules → high complexity → recommends multi-agent, asks about phase scope and testing, generates comprehensive prompt.md with orchestrator + module agent specs"
+  },
+  {
+    "id": 3,
+    "prompt": "我已经写好了 PRD 和详细设计，现在需要一个 AI 能直接执行的实现 Prompt。帮我把设计文档转成可执行的开发指令。",
+    "expected": "触发 vibe-coding-prompt skill，读取输入文档，通过 Q&A 确认执行策略（Agent 模式选择），生成包含完整模块规格、约束、验收标准的 prompt.md"
+  }
+]

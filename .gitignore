@@ -1,0 +1,13 @@
+# Codegraph index
+.codegraph/
+
+# Original skill package files (keep the extracted skills/ dir)
+*.skill
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

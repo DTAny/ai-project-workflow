@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "根据 doc/prd.md 生成详细设计文档",
+    "expected": "读取 PRD → 识别技术决策缺口 → 多轮 Q&A → 按模块生成 doc/detailed-designed.md，包含数据库Schema、服务接口、错误处理、测试策略"
+  },
+  {
+    "id": 2,
+    "prompt": "帮我把需求文档转成技术设计文档，按照模块划分，每个模块要能独立测试",
+    "expected": "触发 detailed-design skill，先做缺口分析，Q&A 确认技术决策，输出模块化设计文档"
+  },
+  {
+    "id": 3,
+    "prompt": "Generate a detailed technical design from our PRD. I want clear module boundaries with interfaces so different teams can implement different modules in parallel.",
+    "expected": "English-friendly trigger, module decomposition with explicit interfaces, dependency injection patterns, independent testing strategy per module"
+  }
+]

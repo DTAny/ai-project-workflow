@@ -1,0 +1,5 @@
+[
+  {"id": 1, "prompt": "我想做一个团队内部的 Wiki 知识库系统，前端 React，后端还没定。帮我写一份需求文档。", "expected": "生成 doc/prd.md，包含 Wiki 系统的功能需求、技术推荐、开放问题清单"},
+  {"id": 2, "prompt": "帮我的 CLI 工具写个 PRD — 它是一个用于批量重命名文件的命令行工具，叫 'renamer'，用 Node.js 写，要支持正则表达式和预览模式。", "expected": "生成 doc/prd.md，覆盖 CLI 特定关注点（CLI 参数设计、错误处理、跨平台），含开放问题"},
+  {"id": 3, "prompt": "I need a product spec for a mobile app that helps users track their daily water intake. It should have reminders, a simple UI, and sync across devices. Tech stack is React Native + Firebase.", "expected": "生成 doc/prd.md，覆盖移动端特点（离线、推送提醒、跨设备同步），含功能与非功能需求"}
+]

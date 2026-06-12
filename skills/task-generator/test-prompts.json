@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "根据 doc/prd.md 和 doc/detailed-designed.md 为每个模块生成最小可执行任务清单，输出到 doc/tasks/",
+    "expected": "读取两个文档 → 确认模块列表和任务估算 → 为每个模块生成 module-*.md（含 check list），生成 progress.md 总览 → 每个 task 含文件路径和验证标准"
+  },
+  {
+    "id": 2,
+    "prompt": "帮我把详细设计文档拆成开发任务，要能直接分给开发者做的粒度，每个模块一个文件，再来一个总进度文件。",
+    "expected": "触发 task-generator skill，先做输入验证（PRD+设计文档都存在），按模块拆任务，输出 doc/tasks/module-a.md ~ module-l.md + progress.md"
+  },
+  {
+    "id": 3,
+    "prompt": "Generate a task board from our detailed design. I need minimum executable tasks per module with checkboxes, file paths, and validation criteria. Output one markdown file per module plus a master progress tracker.",
+    "expected": "English trigger, reads PRD + detailed design, generates per-module task files with checkbox format, creates progress.md dashboard with dependency graph and completion stats"
+  }
+]
