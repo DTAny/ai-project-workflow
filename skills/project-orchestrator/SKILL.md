@@ -1,6 +1,6 @@
 ---
 name: project-orchestrator
-description: "完整的项目实现流程编排器，串联 PRD → 详细设计 → 任务拆分 → Vibe Coding 指令 → 代码实现 → 部署测试六个阶段。主 Agent 仅编排不写代码，每个阶段定稿前停顿确认，阶段完成后提示开启新会话以避免上下文过长。全程集成部署环境规划与热部署能力。Use when user says \"开始新项目\", \"项目流程\", \"从零开始构建\", \"完整项目实现\", \"帮我从零开始做一个项目\", \"帮我从零做一个项目\", \"完整的开发流程\", \"我要开始一个新项目\", \"走一遍完整的项目实现流程\", \"start a new project\", \"full project workflow\", \"project orchestration\", \"new project with full workflow\", or wants to build a project from scratch with a guided end-to-end workflow."
+description: 完整的项目实现流程编排器，串联 PRD、详细设计、任务拆分、Vibe Coding 指令、代码实现、部署测试六个阶段。主 Agent 仅编排不写代码，每个阶段定稿前停顿确认。Trigger: 开始新项目, 帮我从零开始做一个项目, 完整的开发流程, 我要开始一个新项目, 走一遍完整的项目实现流程, start a new project, full project workflow, project orchestration.
 ---
 
 # 项目流程编排器 (Project Orchestrator)

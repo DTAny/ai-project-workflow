@@ -1,6 +1,6 @@
 ---
 name: detailed-design
-description: "Generate a structured Detailed Design Document from a PRD with module-level technical specifications including data structures, service interfaces, algorithms, error handling, and testing strategy for each module. Use when user asks to create detailed design, technical design, architecture design, or implementation plan from existing requirements. Also trigger when user says \"详细设计\", \"技术设计\", \"架构设计\", \"设计文档\", \"帮我做详细设计\", \"基于PRD生成设计\", \"technical design\", \"design doc\", \"architecture design\", \"生成技术方案\", or any time they want to turn a PRD into module-level technical specs before coding."
+description: Generate a structured Detailed Design Document from a PRD with module-level technical specs including data structures, service interfaces, algorithms, error handling, and testing strategy for each module. Trigger: 详细设计, 技术设计, 架构设计, 设计文档, 帮我做详细设计, 基于PRD生成设计, 生成技术方案, technical design, architecture design, design doc.
 ---
 
 # Detailed Design Generation Skill

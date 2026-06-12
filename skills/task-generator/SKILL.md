@@ -1,6 +1,6 @@
 ---
 name: task-generator
-description: "Generate minimum executable task checklists for each module from a Detailed Design Document and PRD. Each task names a specific output file and describes exactly what goes in it, ordered by dependency. Use when user asks to create task lists, break down modules into tasks, generate a Vibe Coding task board, or prepare implementation tickets. Also trigger when user says \"任务拆分\", \"生成任务\", \"任务清单\", \"拆分开发任务\", \"task breakdown\", \"implementation tasks\", \"把设计文档拆成任务\", \"开发任务\", \"生成 task list\", \"给我拆任务\", or any time they want to turn a detailed design into executable checkbox-style task files organized by module."
+description: Generate minimum executable task checklists for each module from a Detailed Design Document and PRD. Each task names a specific output file and describes exactly what goes in it, ordered by dependency. Trigger: 任务拆分, 给我拆任务, 生成任务清单, 拆分开发任务, 把设计文档拆成任务, task breakdown, create task lists, implementation tasks.
 ---
 
 # Task Generator Skill

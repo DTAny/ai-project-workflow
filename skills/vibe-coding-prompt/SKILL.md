@@ -1,6 +1,6 @@
 ---
 name: vibe-coding-prompt
-description: "Generate a self-contained Vibe Coding Prompt (doc/prompt.md) from PRD + detailed design + task breakdown — the entry point for an AI orchestrator to implement the entire project. Covers agent mode selection, phase scope, quality gates, module specs with interface contracts, and global security/deployment constraints. Trigger when user says \"生成Vibe Coding用的Prompt\", \"写一个实现prompt\", \"生成开发prompt\", \"生成开发指令\", \"generate coding prompt\", \"create implementation prompt\", \"把设计文档转成可执行的开发指令\", \"AI开发指令\", \"生成AI开发prompt\", or asks to turn completed design docs into an executable AI implementation plan."
+description: Generate a self-contained Vibe Coding Prompt from PRD, detailed design, and task breakdown. The entry point for an AI orchestrator to implement the entire project. Trigger: 生成AI开发prompt, 写一个实现prompt, 生成开发指令, 把设计文档转成可执行的开发指令, generate coding prompt, create implementation prompt.
 ---
 
 # Vibe Coding Prompt Generation Skill
