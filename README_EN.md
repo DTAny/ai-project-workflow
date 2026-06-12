@@ -193,26 +193,6 @@ Every skill follows the same iron rule: **DO NOT GUESS**.
 
 ---
 
-## Troubleshooting
-
-### Trigger phrases not working after install?
-
-If a skill appears in the list but the agent never activates it, check your `SKILL.md` line endings — they must be **LF** (`\n`), not **CRLF** (`\r\n`).
-
-On Windows, `git clone` and `npx skills add` can auto-convert LF to CRLF when `core.autocrlf=true` is set. **Claude Code's YAML frontmatter parser silently fails on CRLF**, causing the `description` field to be dropped — the skill name appears but with no description, so trigger phrases can never match.
-
-This repository uses `.gitattributes` to force LF for all skill files, so this should not happen under normal circumstances. If you clone manually or install from another source, verify your line endings.
-
-```bash
-# Check for CRLF
-file skills/*/SKILL.md | grep CRLF
-
-# Fix it
-sed -i 's/\r$//' skills/*/SKILL.md
-```
-
----
-
 ## License
 
 MIT
